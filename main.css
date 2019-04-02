@@ -1,1 +1,75 @@
-
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Raleway');
+/* Default CSS Media Query Setup */
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #ffffff;
+    }
+    div {
+        background-color: #efefef;
+        vertical-align: middle;
+    }
+    
+    #Body {
+        height: 94%;
+    }
+    #Content {
+        padding-top: 50px;
+        padding-left: 10px;
+        height: 100%;
+        background-color: #ffffff;
+        color: #000000;
+    }
+    #Header {
+        background-color: #f8f8f8;
+        top: 0;
+        left: 0;
+        padding-left: 15%;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+    }
+    h1 {
+        font-family:'News Cycle', sans-serif;
+        display: inline;
+        padding-right: 20px;
+    }
+    a {
+        display: inline;
+        font-family:'Raleway', sans-serif;
+        text-decoration: none;
+        color: #000000;
+        padding-right: 10px;
+    }
+}
+/* Horizontal Mobile Media Query Setup */
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: #e2e2e2;
+    }
+    div {
+        background-color: #efefef;
+        vertical-align: middle;
+    }
+    
+    #Body {
+        height: 92.5%;
+    }
+    #Content {
+        height: 100%;
+    }
+    h1 {
+        font-family:'Open Sans', sans-serif;
+        font-size: 225%;
+        display: inline;
+        color: #a8a8a8;
+        padding-right: 30px;
+    }
+    a {
+        display: inline;
+        font-family:'Raleway', sans-serif;
+        font-size: 125%;
+        padding-right: 10px;
+        text-decoration: none;
+        color: #aaaaaa;
+    }
+}
