@@ -20,7 +20,7 @@ div.textcontent {
     margin-bottom: 1%;
     width: 97%;
     background-color: #ffffff;
-    box-shadow: 2px 2px 2px 2px #cccccc;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #eeeeee;
     border-radius: 3px;
 }
 div.contentlink {
@@ -29,7 +29,7 @@ div.contentlink {
     margin-bottom: 1%;
     width: 97%;
     background-color: #ffffff;
-    box-shadow: 2px 2px 2px 2px #cccccc;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #eeeeee;
     border-radius: 3px;
 }
 a.contentlink {
