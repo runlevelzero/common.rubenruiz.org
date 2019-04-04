@@ -16,4 +16,5 @@ function makeHeader() {
   $("body").prepend(header);
   $("div.header").append(headertext);
   $("div.header").append(link1);
+  $("div.header").append(link2);
 }
