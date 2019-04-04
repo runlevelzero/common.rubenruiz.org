@@ -1,0 +1,18 @@
+div.header {
+    background-color: #ececec;
+    top: 0;
+    left: 0;
+    padding-left: 15%;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px 2px #cccccc;
+    z-index: 999;
+}
+h1.header {
+    display: inline;
+    padding-right: 20px;
+}
+a.header {
+    display: inline;
+    padding-right: 10px;
+}
