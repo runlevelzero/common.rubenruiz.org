@@ -3,3 +3,6 @@ function makeHeader() {
   var header =  $("<div></div>").attr("class","header");
   $("body").prepend(header);
 }
+
+
+$(document).ready(makeHeader());
