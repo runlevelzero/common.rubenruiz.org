@@ -6,7 +6,13 @@ function makeHeader() {
   var link1  = $("<a></a>").attr({
     "href" : "https://git.rubenruiz.org",
     "class" : "header"
-  }).text("git repos");
+  });
+  var link2  = $("<a></a>").attr({
+    "href" : "https://pass.rubenruiz.org",
+    "class" : "header"
+  });
+  link1.text("git repos");
+  link2.text("password manager");
   $("body").prepend(header);
   $("div.header").append(headertext);
   $("div.header").append(link1);
