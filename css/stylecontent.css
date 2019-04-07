@@ -42,3 +42,9 @@ a.contentlink {
     padding-right: 86%;
 
 }
+
+div.projectcontent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
