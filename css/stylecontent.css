@@ -47,6 +47,7 @@ div.projectcontent {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    height: 96%;
 }
 div.project {
     margin-left: 1%;
