@@ -46,6 +46,7 @@ a.contentlink {
 div.projectcontent {
     padding-top: 55px;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     height: 96%;
