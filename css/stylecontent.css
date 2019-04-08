@@ -60,3 +60,11 @@ div.project {
     box-shadow: 1.5px 1.5px 1.5px 1.5px #eeeeee;
     border-radius: 3px;
 }
+
+img.project {
+    padding-top: 15px;
+    display: block;
+    margin:auto;
+    width: 93%;
+    height: auto;
+}
