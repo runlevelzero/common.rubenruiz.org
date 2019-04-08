@@ -7,6 +7,10 @@ body {
 h1 {
     font-family:'News Cycle', sans-serif;
 }
+h3 {
+    font-family:'News Cycle', sans-serif;
+    padding-left: 3%;
+}
 a, p {
     font-family:'Raleway', sans-serif;
     text-decoration: none;
